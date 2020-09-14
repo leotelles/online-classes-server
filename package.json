@@ -1,0 +1,15 @@
+{
+  "name": "online-classes-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leotelles/online-classes-server.git",
+  "author": "Leonardo Telles <leo.c.telles@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
+  }
+}
